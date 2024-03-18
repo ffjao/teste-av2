@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biografia neymar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+    
+    }
+    main {
+    height: 100vh;
+}
+    :root {
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;}
+    body{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    .img-logo-header{
+            width: 65px;
+            margin-left: -140px;
+        }
+        .header,
+        .navigation_header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+        .header{
+            background: linear-gradient(to left, #8fcd80,#badb8a);
+            height: 5.0em;
+            justify-content: space-between;
+            padding: 0 10%;
+        }
+        .navigation_header{
+            gap: 4em;
+            font-size: 20px;
+            margin-right: -130px;
+        }
+        .navigation_header a{
+            text-decoration: none;
+            color: black;
+            transition: 1s;
+            font-weight: bold;
+        }
+
+
+        .flex-um{
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    margin-left:28%;
+    margin-top: 180px;
+    display: flex;
+    width: 40%;
+    height: 50%;
+    box-shadow: -0px 10px 60px #5d944f ;
+}
+.active{
+    margin-right: -40px;
+    border-right: 2px solid black;
+    padding-right: 40px;
+}
+.text-video-h6{
+
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 37%;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.text-video{
+  
+  margin-left: 28%;
+  margin-top: 38%;
+  position: absolute;
+  display: block;
+  font-size: 60px;
+  font-weight: bold;
+  
+
+}
+
+.text-video-dois{
+    margin-left: 42%;
+    margin-top: 44%;
+    font-weight: normal;
+    position: absolute;
+    font-size: small;
+}
+.link-assista{
+    margin-left: 28%;
+    margin-top: 45%;
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    transition: 4s;
+    border-bottom: 1px solid black ;
+}
+
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    color: #2b2b2b;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background: linear-gradient(to left, #8fcd80,#badb8a);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+#facebook {
+    background-color: #4267b3;
+}
+
+#tik-tok{
+    background: linear-gradient( to right,#FE2C55,  #E60023, rgb(19, 19, 19));
+}
+#youtube{
+    background: linear-gradient(#f00303,  #E60023);
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #2b2b2b;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p {
+    color: var(--color-neutral-30);
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button {
+    background-color:#2b2b2b;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button:hover {
+    opacity: 0.8;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}     
+
+    </style>
+    
+    <div class="header" id="header">
+        <div class="login_header">
+            <img class="img-logo-header" src="..//img]/njr_preto_2.png" alt="logo GN">
+        </div>
+      <div class="navigation_header">
+        <a href="#" class="active">FOOTBALL</a>
+        <a href="biografia.html">HOME</a>
+      </div>
+    </div>
+
+    <div class="content">
+        <iframe width="560" class="flex-um" height="315" src="https://www.youtube.com/embed/TUuUTfe91cY?si=1gd223jUaJ4oKaew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h6 class="text-video-h6">treinando</h6>
+    <h1 class="text-video">Neymar Jr | Recovery</h1>
+    <h3 class="text-video-dois">Não existem Atalhos</h3>
+    <a href="wathc more.html" class="link-assista">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</a>
+    </div>
+
+    <div class="header1" id="header1">
+        <div class="login_header1"></div>
+    </div>
+
+    <main></main>
+    <footer>
+        <div id="footer_content">
+            <img src="../img]/njr_preto_2.png" style="width: 65px;" alt="logo neymar">
+        
+        <div id="footer-contacts">
+            <div id="footer_social_media">
+                <a href="https://www.youtube.com/user/neymarjr" class="footer-link" id="youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            <a href="https://www.instagram.com/neymarjr" class="footer-link" id="instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+         
+            <a href="https://www.facebook.com/neymarjr/" class="footer-link" id="facebook">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+
+            <a href="https://www.tiktok.com/@neymarjr" class="footer-link" id="tik-tok">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+        </div>
+    </div>
+
+    <div id="footer-subscrive">
+        <h3></h3>
+
+        <p>
+            Coloque seu email para mais notificaçoes
+                    ou novas soluçoes
+        </p>
+        <div id="input_group">
+            <input type="email" id="email">
+            <button>
+                <i class="fa-regular fa-envelope"></i>
+            </button>
+        </div>
+    </div>
+</div>
+       <div id="footer_copyright">
+        &#169
+        Copyright 2022. All rights reserved.br. <br>
+        Official site of Neymar Jr.
+       </div>
+    </footer>
+</body>
+</html>
